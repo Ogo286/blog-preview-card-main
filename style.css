@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+main{
+    background-color: white;
+    width: 270px;
+    border-radius: 15px;
+    padding: 15px;  
+    box-shadow: 10px 10px black  ;
+}
+
+.image{
+    width: 100%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+h3{
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    margin-top: 20px;
+    width:60px ;
+    padding:3px;
+    text-align: center;
+    font-weight: 800;
+    font-size:small ;
+    margin-bottom: 15px;
+}
+
+h6{
+    margin-top: 10px;
+    color: hsl(0, 0%, 40%);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight:bold 700;
+    margin-top: 5px;      
+}
+
+p{
+    font-size: 16ox;
+    color: hsl(0, 0%, 40%);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.man{
+    height: 40px;
+    position: absolute;
+    top: -56%;
+}
+
+h4{
+    font-weight: 800;
+    text-align: left;
+    margin-left: 55px;    
+}
+
+.container{
+    margin-top: 15px;
+    position: t;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+h1:link {
+    color: green;
+  }
+h1:visited {
+    color: purple;
+  }
+  h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+  h1:active {
+    color: red;
+    cursor: pointer;
+  }
+  
